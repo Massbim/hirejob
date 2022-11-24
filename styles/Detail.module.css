@@ -1,0 +1,195 @@
+.body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.topcode {
+  background-color: #5e50a1;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 60px;
+}
+.mainbody {
+  width: 100%;
+  background: #f6f7f8;
+  padding-bottom: 30px;
+}
+.container {
+  width: 80%;
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.searchbar {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  box-sizing: border-box;
+}
+.searchbar input {
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 1px 20px rgba(197, 197, 197, 0.25);
+  border-radius: 8px;
+  border: none;
+  height: 70px;
+  padding: 20px;
+}
+.searchbar input:focus-visible {
+  border: none;
+  outline: none;
+  box-shadow: 0 0 6px #5e50a1;
+}
+.searchbar > div,
+.searchbar > button {
+  position: absolute;
+}
+.searchbar > button {
+  width: 121px;
+  height: 50px;
+  margin: 10px 10px 10px auto;
+  right: 0;
+  background: #5e50a1;
+  border-radius: 4px;
+  color: white;
+  border: none;
+}
+.searchbar > div {
+  height: 100%;
+  right: 135px;
+}
+.searhbar p {
+  margin: 0 !important;
+}
+.main {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.pagination {
+  width: auto;
+  display: flex;
+}
+.sortDrop {
+  top: 50px;
+  position: absolute;
+  display: none;
+  z-index: 9;
+}
+.active {
+  display: block;
+}
+
+.card {
+  width: 100%;
+  height: 200px;
+  border-radius: 4px;
+  background-color: white;
+  position: relative;
+  margin-bottom: 20px;
+  display: flex;
+  box-sizing: border-box;
+}
+.profile {
+  width: 270px;
+  min-width: 270px;
+  height: 100%;
+  overflow: hidden;
+  border-radius: 4px;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile_img {
+  width: 100% !important;
+  justify-content: center;
+}
+.profiledetail {
+  display: flex;
+  padding-left: 20px;
+  flex-direction: column;
+  justify-content: center;
+}
+.profiledetail p {
+  margin-bottom: 5px !important;
+}
+.btn_profiledetail {
+  background-color: #5e50a1 !important;
+  border: none;
+  border-radius: 6px;
+  color: white;
+  padding: 15px 26px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.skills {
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill {
+  text-align: center;
+  background: rgba(251, 176, 23, 0.6);
+  border: 1px solid #fbb017;
+  border-radius: 4px;
+  color: white;
+  padding: 4px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+.page_link {
+  border-radius: 0 !important;
+}
+
+.pagination {
+  width: auto;
+  margin: 0 auto;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+}
+.page {
+  display: flex;
+  width: 58px;
+  height: 58px;
+  background: #ffffff;
+  border: 1px solid #e2e5ed;
+  border-radius: 4px;
+  color: #e2e5ed;
+  cursor: pointer;
+}
+.page[selected] {
+  background-color: #5e50a1;
+  color: white;
+  border: none;
+}
+.active {
+  background-color: #5e50a1;
+  color: white;
+  border: none;
+}
+
+@media screen and (max-width: 576px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .container {
+    width: 95%;
+  }
+}

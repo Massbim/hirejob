@@ -1,0 +1,63 @@
+.login {
+  color: #5e50a1;
+  border: 1px solid #5e50a1;
+  text-align: center;
+}
+.border_none {
+  border: none !important;
+}
+.drop_down_custom {
+  border: 1px solid #5e50a1;
+  color: #5e50a1;
+  width: 50px !important;
+  text-align: center;
+  margin-left: -30px !important;
+}
+.line {
+  background: #5e50a1 !important;
+}
+.color {
+  color: #5e50a1;
+}
+.color:hover {
+  color: #5e50a1;
+}
+.bg {
+  width: 100%;
+  height: 300px;
+  z-index: -1;
+  background: #5e50a1;
+}
+.icon_profile {
+  width: 80px;
+}
+.container_profile {
+  margin-right: 140px !important;
+}
+
+@media screen and (max-width: 992px) {
+  .auth {
+    display: flex;
+    flex-direction: row;
+    margin-right: -35px !important;
+  }
+  .auth_detail {
+    display: inline-flex;
+    float: right !important;
+    flex-direction: row;
+    margin-right: -140px;
+    margin-top: 10px;
+  }
+  .auth_detail1 {
+    display: flex;
+    flex-direction: row;
+    justify-self: end !important;
+    margin-left: 150px;
+    margin-top: 10px;
+  }
+
+  .drop_down_custom {
+    width: 20px !important;
+    margin-left: -80px !important;
+  }
+}

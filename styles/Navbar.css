@@ -1,0 +1,13 @@
+.reg{
+    border: 2px solid #5E50A1;
+    color: #5E50A1;
+}
+
+.reg:hover{
+    color: white !important;
+    background: #5E50A1 !important;
+}
+.reg:focus{
+    color: white !important;
+    background: #5E50A1 !important;
+}

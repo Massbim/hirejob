@@ -1,0 +1,19 @@
+.container_footer {
+  background: #5e50a1;
+  height: 55vh;
+  color: #fff;
+}
+.content_footer {
+  padding-top: 80px;
+}
+
+@media screen and (max-width: 991px) {
+  .container_footer {
+    background: #5e50a1;
+    height: 365px !important;
+    color: #fff;
+  }
+  .width_p {
+    width: 50% !important;
+  }
+}
