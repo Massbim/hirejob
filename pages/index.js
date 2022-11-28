@@ -6,10 +6,10 @@ import Footer from "../components/Footer/Footer";
 import Navbar from "../components/Navbar/Navbar";
 import { loadBanner } from "./api";
 
-export async function getStaticProps() {
-  const detail = await loadBanner();
-  return { props: { detail } };
-}
+// export async function getStaticProps() {
+//   const detail = await loadBanner();
+//   return { props: { detail } };
+// }
 
 export default function Home({ detail }) {
   return (
