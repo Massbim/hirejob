@@ -2,7 +2,7 @@ import axios from "axios";
 import Link from "next/link";
 import Head from "next/head";
 import Image from "next/image";
-import Profile from "../../assets/image/npp.jpg";
+import Profile from "../../assets/image/nopicture.jpg";
 import style from "../../styles/Detail.module.css";
 import Footer from "../../components/Footer/Footer";
 import Maps from "../../assets/image/detail/location.svg";

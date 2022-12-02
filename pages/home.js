@@ -8,10 +8,10 @@ import { Fragment, useEffect, useState } from "react";
 import Navbar from "../components/Navbar/NavbarAfterLogin";
 import { loadBanner } from "./api";
 
-// export async function getStaticProps() {
-//   const detail = await loadBanner();
-//   return { props: { detail } };
-// }
+export async function getStaticProps() {
+  const detail = await loadBanner();
+  return { props: { detail } };
+}
 
 export default function Home({ detail }) {
   const token = Cookies.get("token");
